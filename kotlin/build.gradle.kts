@@ -25,6 +25,7 @@ dependencies {
     testCompile("org.junit.jupiter:junit-jupiter-params:${junitJupiterVersion}")
     testCompile("org.junit.jupiter:junit-jupiter-engine:${junitJupiterVersion}")
     testCompile("com.approvaltests:approvaltests:2.0.1")
+    testCompile("org.amshove.kluent:kluent:1.45")
     compile(kotlin("stdlib-jdk8"))
 }
 
